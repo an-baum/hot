@@ -1,164 +1,164 @@
 [
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Name",
-   "3. Detailkategorie": "Arzt/Ärztin",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Name",
+   "Detailkategorie": "Arzt/Ärztin",
    "Text": "Wir haben Ihre Angaben mit den Informationen in unseren Registern (Betriebs- und Unternehmensregister, Medizinalberuferegister (MedReg), Handelsregister) abgeglichen. Dabei haben wir festgestellt, dass Sie dort weiterhin unter Ihrem alten Namen erfasst sind.\n\nDiese Angaben können im Fragebogen MAS 2024 leider nicht mehr angepasst werden. Wir bitten Sie deshalb, die Angaben im Schritt 2 (Initialisierung) zu bestätigen und den Fragebogen auszufüllen.\n\nUm eine Änderung Ihrer Personalien im MedReg zu beantragen, wenden Sie sich an mebeko@bag.admin.ch."
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Name",
-   "3. Detailkategorie": "Unternehmen",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Name",
+   "Detailkategorie": "Unternehmen",
    "Text": "Anhand des Betriebs- und Unternehmensregisters (BUR) des BFS wird ermittelt, welche Unternehmen aufgefordert werden, an der Erhebung MAS teilzunehmen. Gemäss den gesetzlichen Bestimmungen müssen die eingetragenen Einzelunternehmen den Namen des Inhabers oder der Inhaberin beinhalten. Dieser rechtliche Unternehmensname ist relevant für die Erhebung MAS. Welcher Name im geschäftlichen Auftritt verwendet wird, ist hingegen dem Unternehmen überlassen.\n\nWir bitten Sie deshalb, die Angaben im Schritt 2 (Initialisierung) zu bestätigen und den Fragebogen auszufüllen."
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Adresse",
-   "3. Detailkategorie": "Standort",
-   "Text": "Vielen Dank für Ihren Kommentar im Fragebogen MAS 2024.\n\nSie schreiben:\n«Falsche Adresse – Hasenmattstrasse 37, 4900 Langenthal»\n\nDamit wir Ihre Anfrage bearbeiten können, bitten wir Sie um folgende ergänzende Informationen:\n\n1. Seit wann ist die Adresse Hasenmattstrasse 37, 4900 Langenthal als Standort gültig?\n2. Handelt es sich dabei um eine eigene Infrasturktur?"
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Adresse",
+   "Detailkategorie": "Standort",
+   "Text": "Vielen Dank für Ihren Kommentar im Fragebogen MAS 2024.\n\nSie schreiben:\n«Falsche Adresse – Hasenmattstrasse 37, 4900 Langenthal»\n\nDamit wir Ihre Anfrage bearbeiten können, bitten wir Sie um folgende ergänzende Informationen:\n\nSeit wann ist die Adresse Hasenmattstrasse 37, 4900 Langenthal als Standort gültig?\nHandelt es sich dabei um eine eigene Infrasturktur?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Adresse",
-   "3. Detailkategorie": "Unternehmen",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Adresse",
+   "Detailkategorie": "Unternehmen",
    "Text": "Wir haben Ihre Angaben mit den Informationen in unseren Registern (Betriebs- und Unternehmensregister, Medizinalberuferegister, Handelsregister) abgeglichen. \n\nDa sich beide Unternehmensadressen im selben Kanton befinden, sind die Daten Ihres Unternehmens (CHExxxxxxxx) trotz der fehlerhaften Adresse weiterhin valide und wichtig für die Erhebung MAS 2024. Die auf Unternehmensebene erfassten Daten beziehen sich auf den entsprechenden Kanton. Die genaue Adresse spielt daher eine untergeordnete Rolle.\n\nDiese Angaben können im Fragebogen MAS 2024 leider nicht mehr angepasst werden. Wir bitten Sie deshalb, die Angaben im Schritt 2 (Initialisierung) zu bestätigen und den Fragebogen auszufüllen.\n\nDen Fragebogen haben wir inzwischen wieder entsperrt. Sie können die Bearbeitung jederzeit fortsetzen. \n\nBitte setzen Sie sich zusätzlich direkt mit dem zuständigen kantonalen Gesundheitsamt in Verbindung, um Ihre Unternehmensadresse im Medizinalberuferegister (MedReg) zu aktualisieren. Nur so kann sichergestellt werden, dass Ihre Daten in den Registern korrekt erfasst werden. Die Kontaktdaten lauten wie folgt:\n\n(Adresse Gesundheitsdienst)"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Eröffnung/Schliessung",
-   "3. Detailkategorie": "Eröffnung im Referenzjahr",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Eröffnung/Schliessung",
+   "Detailkategorie": "Eröffnung im Referenzjahr",
    "Text": "Entscheidend für die Teilnahme ist, dass Ihr Unternehmen am Stichtag (31.12.2024)  in der ambulanten Gesundheitsversorgung wirtschaftlich aktiv war. Dies gilt unabhängig davon, ob die ärztliche Tätigkeit, wie in Ihrem Fall, erst im Laufe des Jahres begonnen wurde oder bereits seit Jahresbeginn bestand.\n\nDieser Umstand wird im Fragebogen MAS berücksichtigt: Dort müssen Sie angeben, ob die Tätigkeit im Referenzjahr aufgenommen wurde und in welchem Monat. Dadurch wird bei der Auswertung erkennbar, dass sich beispielsweise die Angaben zur Anzahl Patientinnen und Patienten nur auf einen Teil des Jahres beziehen."
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Eröffnung/Schliessung",
-   "3. Detailkategorie": "Eröffnung nach dem Referenzjahr",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Eröffnung/Schliessung",
+   "Detailkategorie": "Eröffnung nach dem Referenzjahr",
    "Text": "● Existierte die Infrastruktur für den Praxisbetrieb im Referenzjahr (2024) an der genannten Adresse?\n\n● War im Referenzjahr (2024) mindestens eine Ärztin/ein Arzt mit einer gültigen Berufsausübungsbewilligung an diesem Standort tätig?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Eröffnung/Schliessung",
-   "3. Detailkategorie": "Schliessung",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Eröffnung/Schliessung",
+   "Detailkategorie": "Schliessung",
    "Text": "● Zu welchem Datum haben Sie Ihre Praxistätigkeit beendet?\n● Existiert die bisherige Praxisinfrastruktur (z. B. Räumlichkeiten, Geräte) noch?\n● Sind Sie weiterhin ärztlich tätig? Falls ja, an welcher Adresse?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Eröffnung/Schliessung",
-   "3. Detailkategorie": "Praxisübergabe",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Eröffnung/Schliessung",
+   "Detailkategorie": "Praxisübergabe",
    "Text": "Gemäss den Angaben in unseren Registern (Betriebs- und Unternehmensregister, Medinzinalberuferegister) gilt Ihr Unternehmen weiterhin als wirtschaftlich aktiv. Wir bitten Sie daher, uns mitzuteilen, ob Sie derzeit noch eine Tätigkeit als selbständig erwerbende Ärztin oder selbständig erwerbender Arzt in der Gesundheitsversorgung ausüben."
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "Gutachter/in",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "Gutachter/in",
    "Text": "● Sind Sie ausschliesslich gutachterlich tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "Konsiliarärztin/-arzt",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "Konsiliarärztin/-arzt",
    "Text": "● Sind Sie ausschliesslich konsiliarisch tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "Komplementärmedizin",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "Komplementärmedizin",
    "Text": "● Brauchen Sie für Ihre komplementärmedizinische Tätigkeit eine Berufsausübungsbewilligung, z. B. weil Sie rezeptpflichtige Medikamente verschreiben oder andere ärztliche Leistungen erbringen?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "ästhetische Medizin",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "ästhetische Medizin",
    "Text": "● War im Referenzjahr (2024) mindestens eine Ärztin/ein Arzt mit einer gültigen Berufsausübungsbewilligung an diesem Standort tätig?\n\n● Ist für die von Ihrem Unternehmen angebotenen Leistungen eine Berufsausübungsbewilligung notwendig, z. B. für Injektionen mit Botulinumtoxin („Botox“) oder Hyaluronsäure?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "Lohnbestandteil",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "Lohnbestandteil",
    "Text": "● Handelt es sich bei diesem Einkommen um einen Lohnbestandteil (z. B. eine Funktionszulage oder eine Gewinnbeteiligung), der als selbstständiges Einkommen gemeldet wird?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Art der Tätigkeit",
-   "3. Detailkategorie": "Nebenerwerb",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Art der Tätigkeit",
+   "Detailkategorie": "Nebenerwerb",
    "Text": "● Haben Sie neben Ihrer Anstellung am Spital einen selbstständigen Nebenerwerb, zum Beispiel durch Dozententätigkeit, das Halten von Vorträgen, Forschungsarbeiten oder Beratungen?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Teilnahme allgemein",
-   "3. Detailkategorie": "Teilnahmekriterien",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Teilnahme allgemein",
+   "Detailkategorie": "Teilnahmekriterien",
    "Text": "Ihr Unternehmen (CHE93993939) wurde zur Teilnahme an der Erhebung MAS 2024 eingeladen, weil es gemäss den Angaben in unseren Registern (Betriebs- und Unternehmensregister, Medinzinalberuferegister) als wirtschaftlich aktiv in der ambulanten Gesundheitsversorgung gilt und weil eine Berufsausübungsbewilligung in Humanmedizin vorliegt.\n\n● Bezieht sich die wirtschaftliche Tätigkeit Ihres Unternehmens auf ärztliche Leistungen in der ambulanten Gesundheitsversorgung?"
  },
  {
-   "1. Hauptkategorie": "Stammdaten",
-   "2. Unterkategorie": "Teilnahme allgemein",
-   "3. Detailkategorie": "Teilnahmepflicht",
+   "Hauptkategorie": "Stammdaten",
+   "Unterkategorie": "Teilnahme allgemein",
+   "Detailkategorie": "Teilnahmepflicht",
    "Text": "Die Teilnahmepflicht betrifft alle Arztpraxen und ambulanten Zentren (dazu zählen auch die selbständigerwerbenden Ärztinnen und Ärzte im Sinne von Einzelunternehmern) unabhängig von der Anzahl Patientinnen und Patienten, die sie behandeln (siehe auch [Strukturdaten Arztpraxen - Rechtliches - | Publikation|https://www.bfs.admin.ch/bfs/de/home/statistiken/gesundheit/erhebungen/sdapaz/efragebogen-hilfe-benutzer.assetdetail.33206881.html]). Die Daten werden nicht nur zu statistischen, sondern auch zu aufsichtsrechtlichen Zwecken erhoben. Dies ist auch der Grund, wieso die Erhebung MAS eine Vollerhebung ist und es nicht ausreicht, nur eine Stichprobe zu befragen."
  },
  {
-   "1. Hauptkategorie": "Dispensanfrage",
-   "2. Unterkategorie": "Kleines Pensum nach Rentenalter",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Dispensanfrage",
+   "Unterkategorie": "Kleines Pensum nach Rentenalter",
+   "Detailkategorie": "",
    "Text": "Es ist wichtig, dass gerade die Arbeit der vielen Arztpraxen von Ärztinnen und Ärzten nach dem Erreichen des Referenzalters (reguläres Pensionsalter) für die Gesundheitsversorgung durch das Bundesamt für Statistik erfasst und beschrieben werden können.\n\nNur wenn diese Daten vorliegen, kann ihre Arbeit für die Gesundheitsversorgung gewürdigt, von den zuständigen Stellen in die zukünftige Planung einbezogen und zum Beispiel für Tarifdiskussionen verwendet werden. "
  },
  {
-   "1. Hauptkategorie": "Dispensanfrage",
-   "2. Unterkategorie": "Kleines Pensum Nebenerwerb",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Dispensanfrage",
+   "Unterkategorie": "Kleines Pensum Nebenerwerb",
+   "Detailkategorie": "",
    "Text": "Es ist wichtig, dass auch die zahlreichen Unternehmen mit geringer Praxistätigkeit in die Erhebung MAS einfliessen. Mit Ihrer Teilnahme leisten Sie einen wichtigen Beitrag zur Beschreibung der Gesundheitsversorgung im Rahmen der Erhebung MAS 2024.\n\nWir bitten Sie daher den eFragebogen auszufüllen. Uns ist bewusst, dass Sie möglicherweise zu einigen der angefragten Punkte keine Daten vorliegen haben. In solchen Fällen bitten wir Sie, die entsprechenden Felder mit «0», «Nein» oder «Keine» auszufüllen."
  },
  {
-   "1. Hauptkategorie": "Dispensanfrage",
-   "2. Unterkategorie": "Konkurs",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Dispensanfrage",
+   "Unterkategorie": "Konkurs",
+   "Detailkategorie": "",
    "Text": "Bitte beachten Sie, dass die AG, solange sie einen aktiven Status im Handelsregister hat, zur Teilnahme an den Erhebungen MAS eingeladen wird. Sollte sich die Situation nicht ändern, bitten wir Sie, uns jeweils nach Erhalt des Einladungsschreibens zu kontaktieren, damit wir den Fragebogen MAS der AG zurückziehen können."
  },
  {
-   "1. Hauptkategorie": "Abschluss",
-   "2. Unterkategorie": "Abschluss funktioniert nicht",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Abschluss",
+   "Unterkategorie": "Abschluss funktioniert nicht",
+   "Detailkategorie": "",
    "Text": "Wir empfehlen Ihnen, wie folgt vorzugehen: Gehen Sie zu «Schritt 5: Erhebung». Dort können Sie auf der rechten Seite das Kästchen «Vollständigkeit prüfen» anklicken, das sich unterhalb des Knopf «Abschliessen» befindet. Anschliessend werden bei allen unvollständig ausgefüllten Registern rote Ausrufezeichen angezeigt.\n\nSobald alle Register mit einem grünen Häkchen versehen sind, können Sie auf den nun grün blinkenden Knopf «Abschliessen» klicken. Durchlaufen Sie anschliessend die Schritte des Abschlussprozesses, bis das letzte Fenster mit einem erneut grün blinkenden Knopf «Einreichen» erscheint. Erst durch den Klick auf «Einreichen» werden Ihre Daten an das Bundesamt für Statistik übermittelt."
  },
  {
-   "1. Hauptkategorie": "Abschluss",
-   "2. Unterkategorie": "Mahnung trotz Einreichung",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Abschluss",
+   "Unterkategorie": "Mahnung trotz Einreichung",
+   "Detailkategorie": "",
    "Text": "Wir haben den Bearbeitungsstand Ihres Fragebogens überprüft und festgestellt, dass Ihr Fragebogen zwar vollständig ausgefüllt ist, aber die Daten noch nicht übermittelt wurden. Es fehlen noch ein paar letzte Klicks im Abschlussprozess (Zeitaufwand ca. 3 Minuten).\n\nÜber folgenden Link können Sie sich nach wie vor in den Fragebogen MAS 2024 einloggen:\nStrukturdaten Arztpraxen und ambulante Zentren 2024 (4010patc2)\n\nWir empfehlen Ihnen, wie folgt vorzugehen: Klicken Sie auf den grün blinkenden Knopf «Abschliessen». Durchlaufen Sie anschliessend die Schritte des Abschlussprozesses, bis das letzte Fenster mit einem erneut grün blinkenden Knopf «Einreichen» erscheint. Erst durch den Klick auf «Einreichen» werden Ihre Daten an das Bundesamt für Statistik übermittelt."
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Nutzen",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Nutzen",
+   "Detailkategorie": "",
    "Text": "Die Erhebung MAS deckt mehrere Aspekte der Organisation von Arztpraxen in der Schweiz ab. Die erhobenen Informationen beschreiben die demografischen Merkmale der Ärztinnen und Ärzte, die räumliche Verteilung und die wirtschaftlichen Aspekte, einschliesslich der Organisation und Tätigkeit der Arztpraxen und ambulanten Zentren. Es gibt keine vergleichbare Quelle, weder in Bezug auf den Inhalt noch auf die befragte Population.\nNeben der Nutzung im Zusammenhang mit dem KVG wurden die statistischen Daten (anonymisiert) der Erhebung MAS von mehreren medizinischen Gesellschaften (FMH und kantonale Fachgesellschaften) insbesondere im Kontext der Tarifverhandlungen angefordert und geliefert. Nur wenn verlässliche Daten vorliegen, können sie zu einer sachgerechten Diskussion beitragen. Diese Daten müssen aktuell sein, um mögliche Entwicklungen aufzeigen zu können. \nDie Rolle des Bundesamts für Statistik (BFS) besteht darin, qualitativ hochwertige Daten zu erheben und diese im Rahmen der gesetzlichen Bestimmungen zur Verfügung zu stellen. Was die Steuerung und Organisation des Gesundheitssystems betrifft, so obliegt es den zuständigen Stellen und den verschiedenen Interessengruppen, diese Daten bestmöglich zu nutzen."
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Zeitaufwand",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Zeitaufwand",
+   "Detailkategorie": "",
    "Text": "Wir sind uns bewusst, dass das Ausfüllen der Erhebung MAS für die teilnehmenden Arztpraxen und ambulanten Zentren einen Aufwand bedeutet. Deshalb sind wir bemüht, Datenflüsse soweit als möglich zusammenzufassen. Im Sinne des Once-only-Prinzips werden die Daten aus der Erhebung MAS sowohl für statistische als auch für aufsichtsrechtliche Zwecke erhoben verwendet. Das heisst, Sie geben die nur einmal Daten ein, Letztere können dann mehrfach für verschiedene Zwecke und von unterschiedlichen Stellen genutzt werden. Auch mit den Importmöglichkeiten Möglichkeiten, Daten aus bestehenden Datensammlungen (z. B. Vorjahresdaten, Informationen aus dem Medreg, Finanzdaten aus Roko) zu importieren, verfolgen wir das Prinzip, dass bereits erhobene Daten nicht erneut im Fragebogen der Erhebung MAS eingegeben werden müssen."
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Entschädigung",
-   "3. Detailkategorie": "",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Entschädigung",
+   "Detailkategorie": "",
    "Text": "Eine Entschädigung für die Teilnahme an der Erhebung MAS ist nicht vorgesehen. Das Bundesgesetz über die Krankenversicherung (KVG) legt fest (Art. 23, Abs. 2; Art. 59a, Abs. 2), dass die befragten natürlichen und juristischen Personen zur Auskunft verpflichtet und die Daten kostenlos zur Verfügung zu stellen sind.\n\nIhre Teilnahme ist wichtig. Sie und zahlreiche Ihrer Kolleginnen und Kollegen leisten damit einen wichtigen Beitrag zur Beschreibung der ambulanten Gesundheitsversorgung in der Schweiz. Nur wenn diese Daten vorliegen, können sie von den zuständigen Stellen für künftige Planungen berücksichtigt werden. Dafür bedanken wir uns herzlich."
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Webseite/Zugang",
-   "3. Detailkategorie": "Proxy",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Webseite/Zugang",
+   "Detailkategorie": "Proxy",
    "Text": "Die Fehlermeldung „Der Proxy-Server verweigert die Verbindung“ erscheint, weil Ihr Gerät aktuell eine Proxy-Verbindung nutzt, die den Zugriff auf externe Webseiten einschränkt, auch dann, wenn diese sicher sind.\n\nUnsere Webseite ist über HTTPS verschlüsselt und erfüllt alle gängigen Sicherheitsstandards. Um auf den Fragebogen zugreifen zu können, empfehlen wir Ihnen, die Proxy-Einstellungen vorübergehend zu deaktivieren. Nach dem Ausfüllen können Sie diese selbstverständlich wieder aktivieren.\n\nEine Schritt-für-Schritt-Anleitung zur Deaktivierung der Proxy-Einstellungen finden Sie im Anhang dieser E-Mail. Alternativ können Sie den Fragebogen auch über ein anderes Gerät oder Netzwerk aufrufen."
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Webseite/Zugang",
-   "3. Detailkategorie": "Kurzlink",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Webseite/Zugang",
+   "Detailkategorie": "Kurzlink",
    "Text": ""
  },
  {
-   "1. Hauptkategorie": "Allgemein/Administrativ",
-   "2. Unterkategorie": "Webseite/Zugang",
-   "3. Detailkategorie": "Vorjahreslogin-Daten",
+   "Hauptkategorie": "Allgemein/Administrativ",
+   "Unterkategorie": "Webseite/Zugang",
+   "Detailkategorie": "Vorjahreslogin-Daten",
    "Text": "Damit Sie sich ohne Probleme einloggen können, empfehlen wir Ihnen, die im Browser gespeicherten Zugangsdaten aus dem letzten Jahr zu löschen. Wenn Sie Windows (Microsoft) verwenden, können Sie wie folgt vorgehen:\n\n1.\tKlicken Sie oben rechts im Browser auf die drei Punkte und wählen Sie „Einstellungen“ aus.\n2.\tSuchen Sie dort nach dem Bereich „Kennwörter“ oder „Passwörter“.\n3.\tGeben Sie in der Suchleiste jaxform.com ein.\n4.\tLöschen Sie die dort gespeicherten Login-Daten für diese Seite.\n\nAnschliessend sollte das Login mit den neuen Zugangsdaten wie gewohnt funktionieren."
  }
 ]
