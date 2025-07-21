@@ -81,7 +81,6 @@
   <script>
     let daten = [];
 
-    // JSON laden
     fetch('FAQ.json')
       .then(response => response.json())
       .then(json => {
@@ -95,7 +94,6 @@
     function initDropdowns() {
       const hauptDrop = document.getElementById("hauptkategorie");
       const hauptkategorien = [...new Set(daten.map(d => d.Hauptkategorie))];
-
       hauptkategorien.forEach(hk => {
         const opt = document.createElement("option");
         opt.value = hk;
@@ -107,7 +105,7 @@
     function updateUnterkategorie() {
       const haupt = document.getElementById("hauptkategorie").value;
       const unterkategorien = [...new Set(
-        daten.filter(d => d.Hauptkategorie === haupt && d.Unterkategorie)
+        daten.filter(d => d.Hauptkategorie === haupt)
              .map(d => d.Unterkategorie)
       )];
 
@@ -130,21 +128,20 @@
       const haupt = document.getElementById("hauptkategorie").value;
       const unter = document.getElementById("unterkategorie").value;
 
-      let passende = daten.filter(d =>
+      const passende = daten.filter(d =>
         d.Hauptkategorie === haupt &&
-        (unter === "" || d.Unterkategorie === unter)
+        d.Unterkategorie === unter
       );
 
-      let alleDetails = passende.flatMap(d => d.Detailkategorien.map(dc => dc.Kategorie));
-      alleDetails = [...new Set(alleDetails)];
+      const details = [...new Set(passende.map(d => d.Detailkategorie))];
 
       let html = "";
-      if (alleDetails.length > 0) {
+      if (details.length > 0) {
         html += `<label>3. Detailkategorie:</label>
                  <select id="detailkategorie">
                    <option value="">Bitte wählen</option>`;
-        alleDetails.forEach(detail => {
-          html += `<option value="${detail}">${detail}</option>`;
+        details.forEach(dc => {
+          html += `<option value="${dc}">${dc}</option>`;
         });
         html += `</select>`;
       }
@@ -155,24 +152,17 @@
       const haupt = document.getElementById("hauptkategorie").value;
       const unter = document.getElementById("unterkategorie")?.value || "";
       const detail = document.getElementById("detailkategorie")?.value || "";
-      let antwort = "";
+      let antwort = "Keine passende Antwort gefunden. Bitte Eingaben prüfen.";
 
-      let gefundene = daten.filter(d =>
+      const eintrag = daten.find(d =>
         d.Hauptkategorie === haupt &&
-        (unter === "" || d.Unterkategorie === unter)
+        d.Unterkategorie === unter &&
+        d.Detailkategorie === detail
       );
 
-      let textEintrag = null;
-
-      gefundene.forEach(d => {
-        d.Detailkategorien.forEach(dc => {
-          if (dc.Kategorie === detail || detail === "") {
-            textEintrag = dc.Text;
-          }
-        });
-      });
-
-      antwort = textEintrag || "Keine passende Antwort gefunden. Bitte Eingaben prüfen.";
+      if (eintrag && eintrag.Text) {
+        antwort = eintrag.Text;
+      }
 
       if (document.getElementById("introText").checked) {
         antwort = "Besten Dank für Ihre Nachricht.\n\n" + antwort;
