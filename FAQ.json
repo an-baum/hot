@@ -33,7 +33,7 @@
    "Hauptkategorie": "Stammdaten",
    "Unterkategorie": "Eröffnung/Schliessung",
    "Detailkategorie": "Eröffnung nach dem Referenzjahr",
-   "Text": "● Existierte die Infrastruktur für den Praxisbetrieb im Referenzjahr (2024) an der genannten Adresse?\n\n● War im Referenzjahr (2024) mindestens eine Ärztin/ein Arzt mit einer gültigen Berufsausübungsbewilligung an diesem Standort tätig?"
+   "Text": "<ul><li>Existierte die Infrastruktur für den Praxisbetrieb im Referenzjahr (2024) an der genannten Adresse?</li><li>War im Referenzjahr (2024) mindestens eine Ärztin/ein Arzt mit einer gültigen Berufsausübungsbewilligung an diesem Standort tätig?</li></ul>"
  },
  {
    "Hauptkategorie": "Stammdaten",
