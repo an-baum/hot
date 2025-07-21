@@ -39,7 +39,7 @@
    "Hauptkategorie": "Stammdaten",
    "Unterkategorie": "Eröffnung/Schliessung",
    "Detailkategorie": "Schliessung",
-   "Text": "● Zu welchem Datum haben Sie Ihre Praxistätigkeit beendet?\n● Existiert die bisherige Praxisinfrastruktur (z. B. Räumlichkeiten, Geräte) noch?\n● Sind Sie weiterhin ärztlich tätig? Falls ja, an welcher Adresse?"
+   "Text": "<ul><li>Zu welchem Datum haben Sie Ihre Praxistätigkeit beendet?</li><li>Existiert die bisherige Praxisinfrastruktur?</li><li>Sind Sie weiterhin ärztlich tätig? Falls ja, an welcher Adresse?</li></ul>"
  },
  {
    "Hauptkategorie": "Stammdaten",
