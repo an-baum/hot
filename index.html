@@ -170,38 +170,53 @@ function generiereAntwort() {
 
   let bausteine = [];
 
-  // Richtige Reihenfolge: Erst Begrüssung, dann InfoText
-  if (document.getElementById("introText").checked) {
-    bausteine.push("Guten Tag\n\nBesten Dank für Ihre Nachricht.\n");
-  }
+// Intro
+if (document.getElementById("introText").checked) {
+  bausteine.push("<p style='font-family:Calibri; font-size:11pt;'>Guten Tag<br><br>Besten Dank für Ihre Nachricht.</p>");
+}
 
-  if (document.getElementById("infoText").checked) {
-    bausteine.push("Zur Klärung, ob eine Teilnahme Ihres Unternehmens an der Erhebung MAS 2024 erforderlich ist, benötigen wir noch weitere Informationen:\n");
-  }
+// Info
+if (document.getElementById("infoText").checked) {
+  bausteine.push("<p style='font-family:Calibri; font-size:11pt;'>Zur Klärung, ob eine Teilnahme Ihres Unternehmens an der Erhebung MAS 2024 erforderlich ist, benötigen wir noch weitere Informationen:</p>");
+}
 
-  if (eintrag && eintrag.Text) {
-    bausteine.push("\n" + eintrag.Text);
-  } else {
-    bausteine.push("Keine passende Antwort gefunden. Bitte Eingaben prüfen.");
-  }
+// Antworttext
+if (eintrag && eintrag.Text) {
+  bausteine.push(`<p style='font-family:Calibri; font-size:11pt;'>${eintrag.Text}</p>`);
+} else {
+  bausteine.push("<p style='font-family:Calibri; font-size:11pt;'>Keine passende Antwort gefunden. Bitte Eingaben prüfen.</p>");
+}
 
-  if (document.getElementById("kontaktText").checked) {
-    bausteine.push("\n\nBei Fragen stehen wir Ihnen gerne zur Verfügung.");
-  }
+// Kontakt
+if (document.getElementById("kontaktText").checked) {
+  bausteine.push("<p style='font-family:Calibri; font-size:11pt;'>Bei Fragen stehen wir Ihnen gerne zur Verfügung.</p>");
+}
 
-  if (document.getElementById("closingText").checked) {
-    bausteine.push("\n\nVielen Dank für Ihre Teilnahme an der Erhebung MAS 2024.");
-  }
+// Abschluss
+if (document.getElementById("closingText").checked) {
+  bausteine.push("<p style='font-family:Calibri; font-size:11pt;'>Vielen Dank für Ihre Teilnahme an der Erhebung MAS 2024.</p>");
+}
 
-  document.getElementById("antwort").innerHTML = bausteine.join("\n");
+// Ausgabe
+document.getElementById("antwort").innerHTML = bausteine.join("\n");
 }
 
 
     function copyAntwort() {
-      const text = document.getElementById("antwort").innerText;
-      navigator.clipboard.writeText(text);
-      alert("Antworttext wurde kopiert.");
-    }
+  const htmlText = document.getElementById("antwort").innerHTML;
+
+  navigator.clipboard.write([
+    new ClipboardItem({
+      "text/html": new Blob([htmlText], { type: "text/html" }),
+      "text/plain": new Blob([document.getElementById("antwort").innerText], { type: "text/plain" })
+    })
+  ]).then(() => {
+    alert("Formatierter Text wurde kopiert.");
+  }).catch(err => {
+    console.error("Kopieren fehlgeschlagen:", err);
+    alert("Kopieren leider nicht möglich.");
+  });
+}
   </script>
 </body>
 </html>
