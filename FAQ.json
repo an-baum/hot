@@ -51,19 +51,19 @@
    "Hauptkategorie": "Stammdaten",
    "Unterkategorie": "Art der Tätigkeit",
    "Detailkategorie": "Gutachter/in",
-   "Text": "● Sind Sie ausschliesslich gutachterlich tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?"
+   "Text": "<ul><li>Sind Sie ausschliesslich gutachterlich tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?</li></ul>"
  },
  {
    "Hauptkategorie": "Stammdaten",
    "Unterkategorie": "Art der Tätigkeit",
    "Detailkategorie": "Konsiliarärztin/-arzt",
-   "Text": "● Sind Sie ausschliesslich konsiliarisch tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?"
+   "Text": "<ul><li>Sind Sie ausschliesslich konsiliarisch tätig oder üben Sie zusätzlich eine Tätigkeit als selbständig erwerbende Ärztin/selbständig erwerbender Arzt in der Gesundheitsversorgung aus?</li></ul>"
  },
  {
    "Hauptkategorie": "Stammdaten",
    "Unterkategorie": "Art der Tätigkeit",
    "Detailkategorie": "Komplementärmedizin",
-   "Text": "● Brauchen Sie für Ihre komplementärmedizinische Tätigkeit eine Berufsausübungsbewilligung, z. B. weil Sie rezeptpflichtige Medikamente verschreiben oder andere ärztliche Leistungen erbringen?"
+   "Text": "<ul><li>Brauchen Sie für Ihre komplementärmedizinische Tätigkeit eine Berufsausübungsbewilligung, z. B. weil Sie rezeptpflichtige Medikamente verschreiben oder andere ärztliche Leistungen erbringen?</li></ul>"
  },
  {
    "Hauptkategorie": "Stammdaten",
