@@ -154,41 +154,45 @@
       document.getElementById("detailContainer").innerHTML = html;
     }
 
-    function generiereAntwort() {
-      const haupt = document.getElementById("hauptkategorie").value;
-      const unter = document.getElementById("unterkategorie")?.value || "";
-      const detail = document.getElementById("detailkategorie")?.value || "";
-      let antwort = "Keine passende Antwort gefunden. Bitte Eingaben prüfen.";
+function generiereAntwort() {
+  const haupt = document.getElementById("hauptkategorie").value;
+  const unter = document.getElementById("unterkategorie")?.value || "";
+  const detail = document.getElementById("detailkategorie")?.value || "";
 
-      const eintrag = daten.find(d =>
-        d.Hauptkategorie === haupt &&
-        d.Unterkategorie === unter &&
-        d.Detailkategorie === detail
-      );
+  const eintrag = daten.find(d =>
+    d.Hauptkategorie === haupt &&
+    d.Unterkategorie === unter &&
+    d.Detailkategorie === detail
+  );
 
-      let bausteine = [];
+  let bausteine = [];
 
-if (document.getElementById("introText").checked) {
-  bausteine.push("Guten Tag\n\nBesten Dank für Ihre Nachricht.\n");
+  // Richtige Reihenfolge: Erst Begrüssung, dann InfoText
+  if (document.getElementById("introText").checked) {
+    bausteine.push("Guten Tag\n\nBesten Dank für Ihre Nachricht.\n");
+  }
+
+  if (document.getElementById("infoText").checked) {
+    bausteine.push("Zur Klärung, ob eine Teilnahme Ihres Unternehmens an der Erhebung MAS 2024 erforderlich ist, benötigen wir noch weitere Informationen:\n");
+  }
+
+  if (eintrag && eintrag.Text) {
+    bausteine.push("\n" + eintrag.Text);
+  } else {
+    bausteine.push("Keine passende Antwort gefunden. Bitte Eingaben prüfen.");
+  }
+
+  if (document.getElementById("kontaktText").checked) {
+    bausteine.push("\n\nBei Fragen stehen wir Ihnen gerne zur Verfügung.");
+  }
+
+  if (document.getElementById("closingText").checked) {
+    bausteine.push("\n\nVielen Dank für Ihre Teilnahme an der Erhebung MAS 2024.");
+  }
+
+  document.getElementById("antwort").innerHTML = bausteine.join("\n");
 }
-if (document.getElementById("infoText").checked) {
-  bausteine.push("Zur Klärung, ob eine Teilnahme Ihres Unternehmens an der Erhebung MAS 2024 erforderlich ist, benötigen wir noch weitere Informationen:\n");
-}
 
-if (eintrag && eintrag.Text) {
-  bausteine.push("\n" + eintrag.Text);
-} else {
-  bausteine.push("Keine passende Antwort gefunden. Bitte Eingaben prüfen.");
-}
-
-if (document.getElementById("kontaktText").checked) {
-  bausteine.push("\n\nBei Fragen stehen wir Ihnen gerne zur Verfügung.");
-}
-if (document.getElementById("closingText").checked) {
-  bausteine.push("\n\nVielen Dank für Ihre Teilnahme an der Erhebung MAS 2024.");
-}
-
-document.getElementById("antwort").innerHTML = bausteine.join("\n");
 
     function copyAntwort() {
       const text = document.getElementById("antwort").innerText;
