@@ -53,7 +53,9 @@
 </head>
 <body>
   <h1>MAS 2024 Hotline-Assistent</h1>
-
+ <div>
+    <label><input type="checkbox" id="introText" checked> Begrüssung</label>
+      </div>
   <div>
     <label>1. Hauptkategorie:</label>
     <select id="hauptkategorie" onchange="updateUnterkategorie()">
@@ -65,7 +67,6 @@
   <div id="detailContainer"></div>
 
   <div>
-    <label><input type="checkbox" id="introText" checked> Begrüssung</label>
     <label><input type="checkbox" id="kontaktText" checked> Kontaktformulierung</label>
     <label><input type="checkbox" id="closingText" checked> Dank Teilnahme</label>
   </div>
