@@ -53,12 +53,12 @@
 </head>
 <body>
   <h1>MAS 2024 Hotline-Assistent</h1>
- <div>
-    <label><input type="checkbox" id="introText" checked> Begrüssung</label>
-      </div>
-  <div>
-  </div>
-  <div>
+ <div style="margin-bottom: 20px;">
+  <label><input type="checkbox" id="introText" checked> Begrüssung</label>
+  <label><input type="checkbox" id="infoText" checked> Weitere Informationen benötigt</label>
+
+</div>
+    <div>
     <label>1. Hauptkategorie:</label>
     <select id="hauptkategorie" onchange="updateUnterkategorie()">
       <option value="">Bitte wählen</option>
@@ -169,6 +169,9 @@
 
       if (document.getElementById("introText").checked) {
         antwort = "Besten Dank für Ihre Nachricht.\n\n" + antwort;
+      }
+       if (document.getElementById("infoText").checked) {
+        antwort = "Zur Klärung, ob eine Teilnahme Ihres Unternehmens an der Erhebung MAS 2024 erforderlich ist, benötigen wir noch weitere Informationen:\n\n" + antwort;
       }
       if (document.getElementById("kontaktText").checked) {
         antwort += "\n\nBei Fragen stehen wir Ihnen gerne zur Verfügung.";
